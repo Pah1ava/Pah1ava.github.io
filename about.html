@@ -1,25 +1,47 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Обо мне</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Pahlava</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      text-align: center;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #222;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    nav a:hover { color: #0070f3; }
+    main {
+      padding: 40px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <h1>Обо мне</h1>
-    <nav><a href="index.html">Главная</a></nav>
-  </header>
-
-  <main class="content">
-    <p>Короткая страница «Обо мне». Здесь можно написать про навыки, проекты, контакты.</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="projects.html">Projects</a>
+    <a href="docs.html">Docs</a>
+    <a href="art.html">Art</a>
+  </nav>
+  <main>
+    <h1>About Me</h1>
+    <p>Hello! I’m <b>Pahlava</b> — a game designer passionate about level and narrative design.
+       I create meaningful experiences and experimental game concepts.</p>
   </main>
-
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Ваше имя</p>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

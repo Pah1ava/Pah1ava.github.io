@@ -1,36 +1,83 @@
-<!doctype html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Моя страница</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pahlava — Game Designer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #fafafa;
+      color: #222;
+      text-align: center;
+    }
+    header {
+      padding: 40px 0 20px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #222;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+    nav a:hover {
+      color: #0070f3;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 70vh;
+    }
+    .hero img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ddd;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1rem;
+      color: #555;
+    }
+    footer {
+      padding: 20px;
+      font-size: 0.85rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <h1>Привет — это мой сайт</h1>
-    <p class="subtitle">Короткая визитка — сделано на GitHub Pages</p>
+  <header>
     <nav>
-      <a href="index.html">Главная</a> •
-      <a href="about.html">Обо мне</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="projects.html">Projects</a>
+      <a href="docs.html">Docs</a>
+      <a href="art.html">Art</a>
     </nav>
   </header>
 
-  <main class="content">
-    <section>
-      <h2>Немного обо мне</h2>
-      <p>Здесь можно написать пару предложений: кто вы, чем занимаетесь, ссылки на соцсети и работы.</p>
-      <p>Пример кнопки: <button onclick="alert('Привет!')">Нажми меня</button></p>
-    </section>
-  </main>
+  <section class="hero">
+    <img src="your-photo.jpg" alt="Pahlava portrait">
+    <h1>Game Designer — Pahlava</h1>
+    <p>Creating stories, worlds, and experiences through design.</p>
+  </section>
 
-  <footer class="site-footer">
-    <p>© <span id="year"></span> Ваше имя</p>
+  <footer>
+    © 2025 Pahlava. All rights reserved.
   </footer>
-
-  <script>
-    // Подставим текущий год
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
