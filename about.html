@@ -3,45 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About — Pahlava</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background-color: #fafafa;
-      color: #222;
-      text-align: center;
-    }
-    nav {
-      margin: 20px 0;
-    }
-    nav a {
-      text-decoration: none;
-      color: #222;
-      margin: 0 15px;
-      font-weight: 500;
-    }
-    nav a:hover { color: #0070f3; }
-    main {
-      padding: 40px;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-  </style>
+  <title>About - Pahlava</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="page-styles.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="blog.html">Blog</a>
-    <a href="projects.html">Projects</a>
-    <a href="docs.html">Docs</a>
-    <a href="art.html">Art</a>
-  </nav>
-  <main>
-    <h1>About Me</h1>
-    <p>Hello! I’m <b>Pahlava</b> — a game designer passionate about level and narrative design.
-       I create meaningful experiences and experimental game concepts.</p>
-  </main>
+  <div class="page-container">
+    <header class="page-header">
+      <a href="index.html" class="back-link">← Back</a>
+      <h1>About Me</h1>
+    </header>
+
+    <main class="page-content">
+      <section class="content-section">
+        <h2>Game Designer & Creative Developer</h2>
+        <p>I'm a passionate game designer and developer focused on creating immersive and engaging gaming experiences. With a background in both design and programming, I bridge the gap between creativity and technical implementation.</p>
+      </section>
+
+      <section class="content-section">
+        <h3>Skills & Expertise</h3>
+        <ul>
+          <li>Game Design & Mechanics</li>
+          <li>Level Design & World Building</li>
+          <li>UI/UX Design</li>
+          <li>Programming & Development</li>
+          <li>Visual Storytelling</li>
+          <li>Project Management</li>
+        </ul>
+      </section>
+
+      <section class="content-section">
+        <h3>Mission</h3>
+        <p>My goal is to create games that not only entertain but also inspire and challenge players. I believe in the power of interactive media to tell meaningful stories and create lasting memories.</p>
+      </section>
+
+      <a href="index.html" class="nav-button">Return Home</a>
+    </main>
+  </div>
 </body>
 </html>
