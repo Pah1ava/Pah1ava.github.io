@@ -1,9 +1,9 @@
 .page-container {
   width: 100%;
   min-height: 100vh;
-  background-color: #000;
-  color: #fff;
-  font-family: "Courier New", monospace;
+  background-color: #1B1B1B;
+  color: #1B1B1B;
+  font-family: "Maiandra GD", monospace;
   padding: 40px 60px;
 }
 
@@ -153,7 +153,7 @@
 .tag {
   display: inline-block;
   padding: 6px 12px;
-  background-color: #1a1a1a;
+  background-color: #1B1B1B;
   border: 1px solid #333;
   border-radius: 4px;
   font-size: 12px;
@@ -165,7 +165,7 @@
   margin-bottom: 40px;
   padding: 30px;
   border-left: 3px solid #999;
-  background-color: #0a0a0a;
+  background-color: #1B1B1B;
   border-radius: 4px;
 }
 
