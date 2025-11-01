@@ -1,0 +1,9 @@
+:root{--bg:#f6f7fb;--card:#ffffff;--text:#111}
+*{box-sizing:border-box}
+body{font-family:system-ui,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);margin:0;padding:24px}
+.site-header{max-width:900px;margin:18px auto;padding:20px;background:var(--card);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.subtitle{color:#555;margin-top:6px}
+nav a{color:#0b63d6;text-decoration:none;margin:0 6px}
+.content{max-width:900px;margin:18px auto;padding:20px;background:var(--card);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.04)}
+.site-footer{max-width:900px;margin:18px auto;text-align:center;color:#666}
+button{padding:8px 12px;border-radius:8px;border:1px solid #ddd;background:#fff;cursor:pointer}

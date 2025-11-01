@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Моя страница</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Привет — это мой сайт</h1>
+    <p class="subtitle">Короткая визитка — сделано на GitHub Pages</p>
+    <nav>
+      <a href="index.html">Главная</a> •
+      <a href="about.html">Обо мне</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Немного обо мне</h2>
+      <p>Здесь можно написать пару предложений: кто вы, чем занимаетесь, ссылки на соцсети и работы.</p>
+      <p>Пример кнопки: <button onclick="alert('Привет!')">Нажми меня</button></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ваше имя</p>
+  </footer>
+
+  <script>
+    // Подставим текущий год
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

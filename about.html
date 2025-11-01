@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Обо мне</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Обо мне</h1>
+    <nav><a href="index.html">Главная</a></nav>
+  </header>
+
+  <main class="content">
+    <p>Короткая страница «Обо мне». Здесь можно написать про навыки, проекты, контакты.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ваше имя</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
